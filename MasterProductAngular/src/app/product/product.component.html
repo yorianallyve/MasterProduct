@@ -1,0 +1,69 @@
+<h1>Producto</h1>
+
+<div class="form-row">
+
+    <div class="form-group col-md-2">
+        <label for="inputId">Id Producto</label>
+        <input type="text" class="form-control" id="inputId" [(ngModel)]="product.idProduct" placeholder="Id Producto">
+    </div>
+
+    <div class="form-group col-md-4">
+        <label for="NameProduct">Nombre Producto</label>
+        <input type="text" class="form-control" id="NameProduct" [(ngModel)]="product.nameProduct" placeholder="Nombre Producto">
+    </div>
+
+    <div class="form-group col-md-4">
+        <label for="ReleaseDate">Fecha de Lanzamiento</label>
+        <input type="date" class="form-control" id="ReleaseDate" [(ngModel)]="product.releaseDate" placeholder="Fecha de Lanzamiento">
+    </div>
+</div>
+<div class="form-row">
+    <div class="form-group col-md-4">
+        <label for="Email">Correo del Fabricante</label>
+        <input type="text" class="form-control" id="ManufacturerEmail" [(ngModel)]="product.manufacturerEmail" placeholder="Correo del Fabricante">
+    </div>
+    <div class="form-group col-md-4">
+        <label for="inputProduct">País</label>
+        <select id="inputProduct" class="form-control" [(ngModel)]="product.idCountry"> 
+            <option selected>Seleccione País</option>
+               <option *ngFor = "let country of ltscountry" [value] = "country.alpha3Code">{{country.name}}</option>
+        </select>
+    </div>
+</div>
+<div class="form-row">
+    <div class="form-group col-md-2">
+        <label for="inputId">Costo</label>
+        <input type="text" class="form-control" id="inputId" [(ngModel)]="product.cost" placeholder="Costo">
+    </div>
+
+    <div class="form-group col-md-2">
+        <label for="UnitsAvailable">Cant disponibles</label>
+        <input type="text" class="form-control" id="UnitsAvailable" [(ngModel)]="product.unitsAvailable" placeholder="Cant disponibles">
+    </div>
+
+    <div class="form-group col-md-2">
+        <label for="SoldUnits">Cant Vendidas</label>
+        <input type="text" class="form-control" id="UnitsAvailable" [(ngModel)]="product.soldUnits" placeholder="Cant Vendidas">
+    </div>
+</div>
+<div class="form-row">
+    <div class="form-group col-md-4">
+        <label for="inputNote">Característica</label>
+        <textarea id="inputNote" class="form-control" id="inputNote" [(ngModel)]="product.properties" placeholder=""></textarea>
+    </div>
+    <div class="form-group col-md-2">
+        <label for="inputId">Estado</label>
+        <input type="checkbox" class="form-control" id="inputId" [(ngModel)]="product.stateProduct" placeholder="Estado">
+    </div>
+</div>
+
+<p *ngIf="NotificationStatus">
+    <ngb-alert [type]="TypeNotification" (close)="closeAlert()">{{ TextNotification }}</ngb-alert>
+</p>
+<button type="button" (click)="onClickInsertProduct()" class="btn btn-outline-dark">Ingresar</button>
+
+<button type="button" (click)="onClickUpdateProduct()" class="btn btn-outline-dark">Actualizar</button>
+
+<button type="button" (click)="onClickSearchProductId()" class="btn btn-outline-dark">Buscar</button>
+
+<button type="button" (click)="OnClickCleanProduct()" class="btn btn-outline-danger">Limpiar</button>

@@ -38,9 +38,15 @@ export class ProductService {
 
   public GetProductAll(STATPROD) {
     let fullUrl =
-      "http://localhost:51169/api/product/GetProductAll?STATPROD =" + STATPROD;
+      "http://localhost:51169/api/product/GetProductAll?STATPROD=" + STATPROD;
     let headers = new Headers({ "Content-Type": "application/json" });
     let options = new RequestOptions({ headers: headers });
     return this.http.get(fullUrl, options).pipe(map(result => result.json()));
+  }
+  public GetCountriesAll() {
+    let fullUrl = "https://restcountries.eu/rest/v2/all";
+    let headers = new Headers({ "Content-Type": "application/json" });
+    let options = new RequestOptions({ headers: headers });
+    return this.http.get(fullUrl).pipe(map(result => result.json()));
   }
 }

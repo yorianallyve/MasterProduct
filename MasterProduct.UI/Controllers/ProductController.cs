@@ -4,11 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using MasterProduct.BussinessEntities;
 using MasterProduct.BussinessLogic;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MasterProduct.UI.Controllers
 {
+    [EnableCors("MyPolicy")]
     [Produces("application/json")]
     [Route("api/Product")]
     public class ProductController : Controller

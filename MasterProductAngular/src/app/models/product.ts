@@ -1,15 +1,15 @@
 export class Product {
   constructor(
-    public IdProduct: number,
-    public NameProduct: string,
-    public Properties: string,
-    public ReleaseDate: string,
-    public Email: string,
-    public IdCountry: number,
-    public Cost: string,
-    public UnitsAvailable: string,
-    public SoldUnits: string,
-    public StateProduct: boolean,
-    public NameCountry: string
+    public idProduct: number,
+    public nameProduct: string,
+    public properties: string,
+    public releaseDate: string,
+    public manufacturerEmail: string,
+    public idCountry: string,
+    public cost: string,
+    public unitsAvailable: string,
+    public soldUnits: string,
+    public stateProduct: boolean,
+    public name: string
   ) {}
 }

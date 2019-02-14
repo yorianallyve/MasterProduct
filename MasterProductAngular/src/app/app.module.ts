@@ -7,9 +7,19 @@ import { FormsModule } from "@angular/forms";
 import { AppComponent } from "./app.component";
 import { NavbarComponent } from "./navbar/navbar.component";
 import { HomeComponent } from "./home/home.component";
+import { ProductService } from "./services/product.service";
+import { PagerService } from "./services/pager.service";
+import { ProductComponent } from "./product/product.component";
+import { ProductsStockComponent } from "./products-stock/products-stock.component";
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, HomeComponent],
+  declarations: [
+    AppComponent,
+    NavbarComponent,
+    HomeComponent,
+    ProductComponent,
+    ProductsStockComponent
+  ],
   imports: [
     BrowserModule,
     NgbModule.forRoot(),
@@ -17,7 +27,7 @@ import { HomeComponent } from "./home/home.component";
     FormsModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ProductService, PagerService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
