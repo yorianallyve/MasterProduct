@@ -11,6 +11,7 @@ import { ProductService } from "./services/product.service";
 import { PagerService } from "./services/pager.service";
 import { ProductComponent } from "./product/product.component";
 import { ProductsStockComponent } from "./products-stock/products-stock.component";
+import { ProductsOutStockComponent } from './products-out-stock/products-out-stock.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ProductsStockComponent } from "./products-stock/products-stock.componen
     NavbarComponent,
     HomeComponent,
     ProductComponent,
-    ProductsStockComponent
+    ProductsStockComponent,
+    ProductsOutStockComponent
   ],
   imports: [
     BrowserModule,

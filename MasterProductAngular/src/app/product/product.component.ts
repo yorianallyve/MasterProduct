@@ -137,7 +137,7 @@ export class ProductComponent implements OnInit {
 
   OnClickCleanProduct() {
     this.product = {
-      idProduct: null,
+      idProduct: 0,
       nameProduct: "",
       properties: "",
       releaseDate: null,
