@@ -8,7 +8,16 @@ Este proyecto se le aplicó el patrón de arquitectura Patrón de capas, aun el 
 También implementé el paton de diseño llamado cadena de responsabilidad, asignandole a una clase especifica un metodo u acción especifica es decir que sólo allí se va a poder tener dicha responsabilidad.
 
 ![Step2](https://raw.githubusercontent.com/yorianallyve/MasterProduct/master/Evidencias/2.png)
-Esta es una evidencia de que la apli para consultar por los productos que se encuentran en existencia, (ensayado con postman).
+Esta es una evidencia del funcionamiento de la apli para consultar por los productos que se encuentran en existencia. (Ensayado con postman).
 
 ![Step3](https://raw.githubusercontent.com/yorianallyve/MasterProduct/master/Evidencias/3.png)
-Esta es una evidencia de que la apli para consultar por los productos que se encuentran no estan en stock, esto porque realice un eliminado lógico (ensayado con postman).
+Esta es una evidencia del funcionamiento de la apli para consultar por los productos que se encuentran no estan en stock, esto porque realice un eliminado lógico (ensayado con postman).
+
+![Step4](https://raw.githubusercontent.com/yorianallyve/MasterProduct/master/Evidencias/4.png)
+Esta es una evidencia del funcionamiento de la apli para insertar el producto. (Ensayado con postman).
+
+![Step5](https://raw.githubusercontent.com/yorianallyve/MasterProduct/master/Evidencias/5.png)
+Esta es una evidencia del funcionamiento de la apli para realizar la búsqueda por el id del producto. (Ensayado con postman).
+
+![Step6](https://raw.githubusercontent.com/yorianallyve/MasterProduct/master/Evidencias/6.png)
+Esta es una evidencia del funcionamiento de la apli para realizar la actualización del producto. (Ensayado con postman).
