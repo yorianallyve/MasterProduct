@@ -8,3 +8,7 @@ Este proyecto se le aplicó el patrón de arquitectura Patrón de capas, aun el 
 También implementé el paton de diseño llamado cadena de responsabilidad, asignandole a una clase especifica un metodo u acción especifica es decir que sólo allí se va a poder tener dicha responsabilidad.
 
 ![Step2](https://raw.githubusercontent.com/yorianallyve/MasterProduct/master/Evidencias/2.png)
+Esta es una evidencia de que la apli para consultar por los productos que se encuentran en existencia, (ensayado con postman).
+
+![Step3](https://raw.githubusercontent.com/yorianallyve/MasterProduct/master/Evidencias/3.png)
+Esta es una evidencia de que la apli para consultar por los productos que se encuentran no estan en stock, esto porque realice un eliminado lógico (ensayado con postman).
