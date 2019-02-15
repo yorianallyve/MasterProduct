@@ -80,3 +80,4 @@ En esta imagen se observa el filtro por el nombre de un producto, también permi
 ![Step19](https://raw.githubusercontent.com/yorianallyve/MasterProduct/master/Evidencias/19.png)
 En esta imagen se observa el filtro por la sigla de un país, también permite limpiar despues de realizado una búsqueda.
 
+# Observación: En los reportes se puede observar el paginador.
