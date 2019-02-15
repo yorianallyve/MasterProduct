@@ -58,6 +58,6 @@ En esta imagen se observa un el estado de los productos que me sirve para indica
 
 
 ![Step14](https://raw.githubusercontent.com/yorianallyve/MasterProduct/master/Evidencias/14.png)
-En esta imagen se observa el reporte de productos existentes, este no sólo muestra el reporte de los productos existentes sino que también permite realizar filtros por el nombre del producto y el país.
+En esta imagen se observa el reporte de productos existentes, este no sólo muestra el reporte de los productos existentes sino que también permite realizar filtros por el nombre del producto y el país, también permite limpiar despues de realizado una búsqueda.
 
 
