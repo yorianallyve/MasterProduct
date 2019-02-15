@@ -58,6 +58,25 @@ En esta imagen se observa un el estado de los productos que me sirve para indica
 
 
 ![Step14](https://raw.githubusercontent.com/yorianallyve/MasterProduct/master/Evidencias/14.png)
-En esta imagen se observa el reporte de productos existentes, este no sólo muestra el reporte de los productos existentes sino que también permite realizar filtros por el nombre del producto y el país, también permite limpiar despues de realizado una búsqueda.
+En esta imagen se observa el reporte de productos existentes, este no sólo muestra el reporte de los productos existentes sino que también permite realizar filtros por el nombre del producto y el país.
 
+
+![Step15](https://raw.githubusercontent.com/yorianallyve/MasterProduct/master/Evidencias/15.png)
+En esta imagen se observa el filtro por el nombre de un producto, también permite limpiar despues de realizado una búsqueda.
+
+
+![Step16](https://raw.githubusercontent.com/yorianallyve/MasterProduct/master/Evidencias/16.png)
+En esta imagen se observa el filtro por la sigla de un país, también permite limpiar despues de realizado una búsqueda.
+
+
+![Step17](https://raw.githubusercontent.com/yorianallyve/MasterProduct/master/Evidencias/17.png)
+En esta imagen se observa el reporte de productos no existentes, este no sólo muestra el reporte de los productos existentes sino que también permite realizar filtros por el nombre del producto y el país.
+
+
+![Step18](https://raw.githubusercontent.com/yorianallyve/MasterProduct/master/Evidencias/18.png)
+En esta imagen se observa el filtro por el nombre de un producto, también permite limpiar despues de realizado una búsqueda.
+
+
+![Step19](https://raw.githubusercontent.com/yorianallyve/MasterProduct/master/Evidencias/19.png)
+En esta imagen se observa el filtro por la sigla de un país, también permite limpiar despues de realizado una búsqueda.
 
