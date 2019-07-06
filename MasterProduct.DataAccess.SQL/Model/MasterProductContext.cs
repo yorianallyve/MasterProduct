@@ -23,7 +23,7 @@ namespace MasterProduct.DataAccess.SQL.Model
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Server=DESKTOP-N3F06T4\\SQLEXPRESS;Database=MasterProduct;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server=DESKTOP-8KB1J6M\\SQLEXPRESS;Database=MasterProduct;Trusted_Connection=True;");
             }
         }
 

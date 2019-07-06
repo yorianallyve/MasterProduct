@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.SpaServices.Webpack;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace MasterProduct.UI
 {
@@ -29,6 +30,13 @@ namespace MasterProduct.UI
                        .AllowAnyMethod()
                        .AllowAnyHeader();
             }));
+
+
+            //Se agrega en generador de Swagger
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Info { Title = "Api Producto REST", Version = "v1" });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -40,6 +48,15 @@ namespace MasterProduct.UI
                 app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions
                 {
                     HotModuleReplacement = true
+                });
+
+                //Habilitar swagger
+                app.UseSwagger();
+
+                //indica la ruta para generar la configuración de swagger
+                app.UseSwaggerUI(c =>
+                {
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Api Producto REST");
                 });
             }
             else

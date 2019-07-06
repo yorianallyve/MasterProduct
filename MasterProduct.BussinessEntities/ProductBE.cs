@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace MasterProduct.BussinessEntities
@@ -7,6 +8,7 @@ namespace MasterProduct.BussinessEntities
     public class ProductBE
     {
         public int IdProduct { get; set; }
+        [Required]
         public string NameProduct { get; set; }
         public string Properties { get; set; }
         public DateTime ReleaseDate { get; set; }
